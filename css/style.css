@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    background-color: #f9f9f9;
+    min-width: 1080px;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1060px;
+    background-color: #ffffff;
+}
+.container{
+    width: 1058px;
+    margin: 0 auto;
+}
+header{
+    padding: 40px 0 0 40px ;
+}
+main, footer{
+    margin:0 40px;
+}
+main::after{
+    content: '.';
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+.logo, nav{
+    margin-bottom: 30px;
+}
+p{
+    color: black;
+}
+ul,li{
+    list-style: none;
+}
+nav ul{
+    width: 968px;
+    background-color: #505050;
+    border-radius: 3px;
+}
+nav li, footer li{
+    line-height: 40px;
+    display: inline-block;
+}
+nav li a{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 26px;
+}
+nav li:hover{
+    background-color: #3a3a3a;
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+}
+.sidebar{
+    width: 240px;
+    float: left;
+}
+.sidebar li{
+    display: inline-block;
+    width: 100%;
+    line-height: 40px;
+    border:  1px solid #c8c8c8;
+    border-bottom: none;
+}
+.sidebar li:hover{
+    background-color: #f9f9f9;
+}
+.sidebar li:last-child{
+    border-bottom: 1px solid #c8c8c8;
+}
+.sidebar li a{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 0 26px;
+    color: #656363;
+}
+.sidebar li:hover a{
+    padding:0 40px;
+}
+.content{
+    width: 680px;
+    margin-left: 45px ;
+    float: left;
+}
+.image{
+    text-align: center;
+    padding: 45px 90px;
+    border: 1px solid #c8c8c8;
+}
+.text{
+    padding: 40px 20px;
+    color: #2c2c2c;
+}
+footer{
+    position: relative;
+    background-color: #e1e1e1;
+    margin-bottom: 40px;
+}
+footer ul{
+    display: inline-block;
+}
+footer li a {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #6e6e6e;
+    text-decoration: none;
+    padding: 0 26px;
+}
+.copyright{
+    position: absolute;
+    display: inline-block;
+    right: 5px;
+    top: 25%;
+    color: #6e6e6e;
+}
